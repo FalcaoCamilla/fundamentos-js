@@ -16,7 +16,7 @@ function verificaPalindromo2(string){
 
     for(let i = 0; i < string.length / 2; i++){ //adicionando 1 a cada vez em que o índice 0 for menor do que o tamanho da string
         //length dividido por 2, porque a cada laço do loop, haverá a verificação dupla, como a última letra ser igual a primeira e assim sucessivamente
-        if(string[i] !== string[length - 1 - i]){
+        if(string[i] !== string[string.length - 1 - i]){
             return false;
         }
         //os colchetes servem para acessar o caracter, e não o índice
