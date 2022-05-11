@@ -1,2 +1,2 @@
 # fundamentos-js
-Reforçando alguns conceitos  js em pequenas atividades distintas
+Reforçando alguns conceitos javascript em anotações e atividades distintas
