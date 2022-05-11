@@ -9,6 +9,8 @@ array.unshift(3); //adiciona no começo
 array.includes(4); //verificar item
 array.every(item => item === 5); //todos os itens do array são iguais a 5. retorna false
 array.some(item => item === 3); //algum item do array é 3. retorna true
+delete array [posicao] //deixa o espaço vazio
+array.splice(1,1) //remove, a partir do indice 1, 1 elemento
 console.log(array.indexOf(2)); //achar o índice do elemento
 
 //SPREAD
