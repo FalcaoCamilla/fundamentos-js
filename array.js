@@ -11,6 +11,7 @@ array.every(item => item === 5); //todos os itens do array são iguais a 5. reto
 array.some(item => item === 3); //algum item do array é 3. retorna true
 console.log(array.indexOf(2)); //achar o índice do elemento
 
+
 //SPREAD
 function sum(x, y, z){
     soma=x + y + z;
