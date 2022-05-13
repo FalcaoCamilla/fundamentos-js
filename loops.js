@@ -46,3 +46,50 @@ function getAnimal(id){
             return "peixe";
     }
 }
+
+// for...in --> estruturas inumeráveis
+function forInExemplo(obj){
+    for(prop in obj){
+        console.log(prop);
+        //console.log(obj[prop])
+    }
+}
+const meuObj={
+    nome: "João",
+    idade: "20",
+    cidade: "Salvador"
+}
+
+forInExemplo(meuObj);
+
+//for...of --> estruturas iteráveis
+function logLetras(palavra){
+    for(letra of palavra){
+        console.log(letra);
+    }
+}
+const palavra="abacaxi";
+logLetras(palavra)
+
+//while
+function exWhile(){
+    let num=0
+
+    while(num<=5){
+        console.log(num);
+        num++;
+    }
+}
+exWhile()
+
+//while...do
+function exDoWhile(){
+    let num=0;
+
+    do{
+        console.log(num);
+        num++;
+    }while(num<=5)
+}
+
+exDoWhile()
