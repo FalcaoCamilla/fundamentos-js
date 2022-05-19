@@ -46,3 +46,17 @@ function getAnimal(id){
             return "peixe";
     }
 }
+
+//while
+var achou = false;
+var numeroSorteado=10;
+var possivelNumero=0;
+
+while(!achou){
+    possivelNumero+=1;
+    if(numeroSorteado === possivelNumero){
+        achou=true;
+    }else{
+        console.log('Possível número não corresponde ao sorteado ' + possivelNumero);
+    }
+}
