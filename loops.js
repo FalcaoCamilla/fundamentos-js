@@ -35,7 +35,7 @@ function numerPositivo(num){
 //SWITCH
 
 function getAnimal(id){
-    switch(id){
+    switch(id){ //switch(variavel que recebe valor)
         case 1:
             return"cão";
         case 2:
