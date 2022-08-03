@@ -13,6 +13,7 @@ delete array [posicao] //deixa o espaço vazio
 array.splice(1,1) //remove, a partir do indice 1, 1 elemento
 console.log(array.indexOf(2)); //achar o índice do elemento
 
+//slice copia os elementos, não remove
 
 //SPREAD
 function sum(x, y, z){
